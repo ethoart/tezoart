@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- swiperjs cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+
+    <!-- google font link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>TezoArt</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="header bg-white10">
+        <div class="container">
+            <a href="#" class="logo bold white">Tezo<span class="lightpurple">Art</span></a>
+            <div class="menu">
+                <a href="#collections">Collections</a>
+                <a href="#featured">Art Work</a>
+                <a href="#faq">FAQ</a>
+                <div class="btn bg-purple wallet"><a href="https://objkt.com/collection/KT1GAbm8FzzwSjtZE7js8fQts9DLyn7J7KUv">Buy NFT</a></div>
+            </div>
+
+            <div class="fas fa-wallet" id="wallet"></div>
+            <div class="fas fa-bars" id="bar"></div>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+    <section id="home" class="spacetop15 spacebottom10">
+        <div class="container">
+            <div class="row jc-between ai-center col-reverse-s">
+                <div class="col5 col6-md col12-s ta-center-s">
+                    <h1 class="size5 bold spacebottom1">
+                        Wellcome to TezoArt
+                    </h1>
+                    <p class="size2 spacebottom3 halfwhite">tezoart is a collection of rare and valuable designs created by combining beautiful single line drawing and illustation
+                    </p>
+
+                    <div class="row col8 col9-md jc-between spacebottom4 jc-evenly-s col12-s">
+                        <a href="https://objkt.com/collection/KT1GAbm8FzzwSjtZE7js8fQts9DLyn7J7KUv" class="btn bg-purple size2 white ">Objkt now</a>
+                    </div>
+
+                    <div class="row jc-between">
+                        <div class="ta-center">
+                            <p class="size3 bold">1000+</p>
+                            <p class="size2 halfwhite">2D Lineart</p>
+                        </div>
+                        <div class="ta-center">
+                            <p class="size3 bold">100+</p>
+                            <p class="size2 halfwhite">3D Lineart</p>
+                        </div>
+                        <div class="ta-center">
+                            <p class="size3 bold">50+</p>
+                            <p class="size2 halfwhite">Drawing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col6 col12-s spacebottom3-s">
+                    <img src="img/heroimage.png" alt="" class="img-responsive float">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- partner section starts -->
+    <section class="spacer5 spacer0-xs">
+        <div class="container row jc-between jc-around-md">
+            <img src="img/binance.svg" alt="" class="height6 img-responsive-md">
+            <img src="img/ethereum.svg" alt="" class="height6 img-responsive-md">
+            <img src="img/blockchain.svg" alt="" class="height6 img-responsive-md spacetop1-md">
+        </div>
+    </section>
+    <!-- partner section ends -->
+
+    <!-- about section starts -->
+    <section id="about" class="spacer10">
+        <div class="container">
+            <h1 class="bold size4 ta-center">About Us</h1>
+            <p class="spacebottom3 halfwhite size2 ta-center">
+                tezoart
+            </p>
+            <div class="row ai-center jc-between flexcol-s">
+                <div class="col5 col10-s spacebottom2-s">
+                    <img src="img/about.png" class="img-responsive" alt="">
+                </div>
+                <div class="col6 col12-s ta-center-s">
+                    <h3 class="size3 bold">Tezoart NFT</h3>
+                    <p class="size2 spacetop1 spacebottom3 halfwhite">Tezoart nft is a 2d art collection with unique single liner drawings and minimal illustration and a 2d and 3d line art nft collection based on the tezos blockchain combining single line 3d models and other 3D spaces and objects. In addition, our additional creations include digital paintings and traditional paintings.
+                    </p>
+                    <a href="https://twitter.com/tezoart" class="btn bg-purple size2 white">More Details</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- collections section starts -->
+    <section class="collections spacer10" id="collections">
+        <div class="container">
+            <h1 class="bold size4 ta-center">Collections</h1>
+            <p class="spacebottom3 halfwhite size2 ta-center">
+                2D,3D lineart and Drawing Collection
+            </p>
+            <div class="row spacebottom3 filter-buttons">
+                <div class="col3 filter col6-xs spacebottom1-xs" data-filter="all">All</div>
+                <div class="col3 filter col6-xs spacebottom1-xs" data-filter="art">2D Lineart</div>
+                <div class="col3 filter col6-xs" data-filter="photograpy">3D Lineart</div>
+                <div class="col3 filter col6-xs" data-filter="pattern">Drawing</div>
+            </div>
+            <div class="row box-card jc-evenly-md">
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="art">
+                    <img src="img/collection1.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @TezoArt
+                            </p>
+                            <h5 class="size2 bold">The Lover</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Objkt.com</p>
+                            <h5 class="size2 bold"></h5>
+                        </div>
+                    </div>
+                    <a href="https://objkt.com/asset/KT1GAbm8FzzwSjtZE7js8fQts9DLyn7J7KUv/11"class="bid size2 ta-center">
+                        Check NFT
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="photograpy">
+                    <img src="img/collection2.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @TezoArt
+                            </p>
+                            <h5 class="size2 bold">Tezoart 3D</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Objkt.com</p>
+                            <h5 class="size2 bold"></h5>
+                        </div>
+                    </div>
+                    <a href="https://objkt.com/asset/KT1GAbm8FzzwSjtZE7js8fQts9DLyn7J7KUv/8" class="bid size2 ta-center">
+                        Check NFT
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="pattern">
+                    <img src="img/collection3.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @TezoArt
+                            </p>
+                            <h5 class="size2 bold">Art of flower</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Rarible</p>
+                            <h5 class="size2 bold"></h5>
+                        </div>
+                    </div>
+                    <a href="https://rarible.com/token/tezos/KT18pVpRXKPY2c4U2yFEGSH3ZnhB2kL8kwXS:66244" class="bid size2 ta-center">
+                        Check NFT
+                    </a>
+                </div>
+
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="art">
+                    <img src="img/collection4.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @TezoArt
+                            </p>
+                            <h5 class="size2 bold">Sunflower Girl</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Objkt.com</p>
+                            <h5 class="size2 bold"></h5>
+                        </div>
+                    </div>
+                    <a  href="https://objkt.com/asset/KT1GAbm8FzzwSjtZE7js8fQts9DLyn7J7KUv/3" class="bid size2 ta-center">
+                        Check NFT
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="photograpy">
+                    <img src="img/collection5.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @TezoArt
+                            </p>
+                            <h5 class="size2 bold">Lovers in Space</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Objkt.com</p>
+                            <h5 class="size2 bold"></h5>
+                        </div>
+                    </div>
+                    <a href="https://objkt.com/asset/KT1GAbm8FzzwSjtZE7js8fQts9DLyn7J7KUv/12" class="bid size2 ta-center">
+                        Check NFT
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="pattern">
+                    <img src="img/collection6.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @TezoArt
+                            </p>
+                            <h5 class="size2 bold">Girl With Sunflower</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Rarible</p>
+                            <h5 class="size2 bold"></h5>
+                        </div>
+                    </div>
+                    <a href="https://rarible.com/token/tezos/KT18pVpRXKPY2c4U2yFEGSH3ZnhB2kL8kwXS:51266" class="bid size2 ta-center">
+                        Check NFT
+                    </a>
+                </div>
+
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="art">
+                    <img src="img/collection7.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @TezoArt
+                            </p>
+                            <h5 class="size2 bold">Hummingbird With Lovely Girl</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Kalamint</p>
+                            <h5 class="size2 bold"></h5>
+                        </div>
+                    </div>
+                    <a href="https://kalamint.io/KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse/token/80032" class="bid size2 ta-center">
+                        Check NFT
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="photograpy">
+                    <img src="img/collection8.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @TezoArt
+                            </p>
+                            <h5 class="size2 bold">Heart of Tezo</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Objkt.com</p>
+                            <h5 class="size2 bold"></h5>
+                        </div>
+                    </div>
+                    <a href="https://objkt.com/asset/KT1GAbm8FzzwSjtZE7js8fQts9DLyn7J7KUv/13" class="bid size2 ta-center">
+                        Check NFT
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="pattern">
+                    <img src="img/collection9.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @TezoArt
+                            </p>
+                            <h5 class="size2 bold">Dark Angel</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Rarible</p>
+                            <h5 class="size2 bold"></h5>
+                        </div>
+                    </div>
+                    <a href="https://rarible.com/token/tezos/KT18pVpRXKPY2c4U2yFEGSH3ZnhB2kL8kwXS:74273" class="bid size2 ta-center">
+                        Check NFT
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- collections section ends -->
+
+    <!-- featured section starts -->
+    <section class="featured spacer10" id="featured">
+        <div class="container">
+            <h1 class="bold size4 ta-center">Art Works</h1>
+            <p class="spacebottom3 halfwhite size2 ta-center">
+                Digital and Physical Drawing
+            </p>
+            <div class="swiper card-slider row">
+                <div class="swiper-wrapper">
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card bg-white10">
+                            <img src="img/collection4.png" class="img-responsive" alt="">
+                            <div class="row jc-between spacetop2">
+                                <div>
+                                    <p class="size2 halfwhite">
+                                        @TezoArt
+                                    </p>
+                                    <h5 class="size2 bold">Sunflower Girl</h5>
+                                </div>
+                                <div>
+                                    <p class="current halfwhite">Objkt.com</p>
+                                    <h5 class="size2 bold"></h5>
+                                </div>
+                            </div>
+                            <a href="https://objkt.com/asset/KT1GAbm8FzzwSjtZE7js8fQts9DLyn7J7KUv/3" class="bid size2 ta-center">
+                                Check NFT
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card bg-white10">
+                            <img src="img/collection5.png" class="img-responsive" alt="">
+                            <div class="row jc-between spacetop2">
+                                <div>
+                                    <p class="size2 halfwhite">
+                                        @TezoArt
+                                    </p>
+                                    <h5 class="size2 bold">Lovers in Space</h5>
+                                </div>
+                                <div>
+                                    <p class="current halfwhite">Objkt.com</p>
+                                    <h5 class="size2 bold"></h5>
+                                </div>
+                            </div>
+                            <a href="https://objkt.com/asset/KT1GAbm8FzzwSjtZE7js8fQts9DLyn7J7KUv/12" class="bid size2 ta-center">
+                               Check NFT
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card bg-white10">
+                            <img src="img/collection6.png" class="img-responsive" alt="">
+                            <div class="row jc-between spacetop2">
+                                <div>
+                                    <p class="size2 halfwhite">
+                                        @TezoArt
+                                    </p>
+                                    <h5 class="size2 bold">Girl With Sunflower</h5>
+                                </div>
+                                <div>
+                                    <p class="current halfwhite">Rarible</p>
+                                    <h5 class="size2 bold"></h5>
+                                </div>
+                            </div>
+                            <a href="https://rarible.com/token/tezos/KT18pVpRXKPY2c4U2yFEGSH3ZnhB2kL8kwXS:51266" class="bid size2 ta-center">
+                                Check NFT
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card bg-white10">
+                            <img src="img/collection1.png" class="img-responsive" alt="">
+                            <div class="row jc-between spacetop2">
+                                <div>
+                                    <p class="size2 halfwhite">
+                                        @TezoArt
+                                    </p>
+                                    <h5 class="size2 bold">The Lover</h5>
+                                </div>
+                                <div>
+                                    <p class="current halfwhite">Objkt.com</p>
+                                    <h5 class="size2 bold"></h5>
+                                </div>
+                            </div>
+                            <a href="https://objkt.com/asset/KT1GAbm8FzzwSjtZE7js8fQts9DLyn7J7KUv/11" class="bid size2 ta-center">
+                                Check NFT
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- featured section ends -->
+
+    <!-- creator section starts -->
+   
+    <!-- creator section ends -->
+
+    <!-- FAQ section starts -->
+    <section class="spacer10" id="faq">
+        <div class="container">
+            <h1 class="bold size4 ta-center">Freaquently Asked<br>Question</h1>
+            <p class="spacebottom3 halfwhite size2 ta-center">
+                Wanna Ask Something?
+            </p>
+            <div class="row jc-between">
+                <div class="box-faq col6 col12-s">
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">What is the Tezoart?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">tezoart is a collection of rare and valuable 2D/3D designs created by combining beautiful single line drawing and illustation.</p>
+                    </div>
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">Why unique Tezoart?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">Tezoart Line Art NFT Collection is the first and only single-line art NFT collection on the Tezos chain to release only one copy of each of our NFT.</p>
+                    </div>
+                  
+                </div>
+                <div class="box-faq col6 col12-s">
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">Where to buy TezoArt?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">You can Buy the required 2D and 3D Line Art NFT at Tezoart Collection on Objkt NFT Stores.</p>
+                    </div>
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">Why Tezos?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 "> Tezos consumes two million times less energy than Ethereum. Plus, it only costs a fraction of 1 tez to create (or "mint") an NFT on Tezos—that means Tezos NFTs are eco-friendly and more accessible for people around the world.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ section ends -->
+
+    <!-- banner section starts -->
+    <section class="spacer10" id="banner">
+        <div class="container spacer5 bg-purple ta-center">
+            <h1 class="size5 bold spacebottom2 size4-xs">Tezoart NFT Airdrop</h1>
+            <a class="btn bg-halfwhite size2 started ">Comingsoon</a>
+        </div>
+    </section>
+    <!-- banner section ends -->
+
+    <!-- footer section starts -->
+    <footer class="spacer10">
+        <div class="container row jc-between flexcol-s ta-center-s">
+            <div class="row flexcol spacebottom3-s">
+                <a href="#home" class="size2 bold white">Tezo<span class="lightpurple">Art</span></a>
+                <p class="size2 halfwhite spacetop2">The best Unique line Art NFT Collection in<br>the tezos chain and feel your
+                    experience
+                    in<br>buy our artwork</p>
+            </div>
+            <div class="row flexcol spacebottom3-s">
+                <a href="#about" class="bold size2 white">About</a>
+                <a href="#collections" class="size2 halfwhite spacetop2">Collection</a>
+                <a href="#featured" class="size2 halfwhite spacetop2">Art Works</a>
+                <a href="#faq" class="size2 halfwhite spacetop2">FAQ</a>
+            </div>
+            <div class="row flexcol spacebottom3-s">
+                <a href="#" class="bold size2 white">Market Place</a>
+                <a href="https://objkt.com/collection/KT1GAbm8FzzwSjtZE7js8fQts9DLyn7J7KUv" class="size2 halfwhite spacetop2">Objkt</a>
+                <a href="https://rarible.com/tezoart" class="size2 halfwhite spacetop2">Rarible</a>
+                <a href="https://kalamint.io/collections/tezoart" class="size2 halfwhite spacetop2">Kalamint</a>
+                
+            </div>
+            <div class="row flexcol spacebottom3-s">
+                <h5 class="bold size2">Contact</h5>
+                <a class="size2 halfwhite spacetop2">@tezoart</a>
+                <a class="size2 halfwhite spacetop2">tezoart.tez@gmail.com</a>
+                <div class="row jc-between spacetop2 jc-evenly-s">
+                    <a href="https://twitter.com/tezoart" class="fab fa-twitter size2 halfwhite spacetop2"></a>
+                    <a href="https://discord.gg/KEMUkx73" class="fab fa-discord size2 halfwhite spacetop2"></a>
+                    <a href="https://www.instagram.com/tezosart" class="fab fa-instagram size2 halfwhite spacetop2"></a>
+                </div>
+            </div>
+        </div>
+        <p class="size2 halfwhite spacetop5 ta-center">Created by <span class="white bold">Tezoart</span> | All Right
+            Reserved!</p>
+    </footer>
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
